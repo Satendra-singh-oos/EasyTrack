@@ -6,8 +6,8 @@ export interface initialStateTypes {
 }
 
 const initialState: initialStateTypes = {
-  isDarkMode: false,
   isSidebarCollapsed: false,
+  isDarkMode: false,
 };
 
 export const globalSlice = createSlice({
@@ -23,6 +23,5 @@ export const globalSlice = createSlice({
   },
 });
 
-export const { setIsDarkMode, setIsSidebarCollapsed } = globalSlice.actions;
-
+export const { setIsSidebarCollapsed, setIsDarkMode } = globalSlice.actions;
 export default globalSlice.reducer;
