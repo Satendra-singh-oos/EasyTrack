@@ -20,6 +20,7 @@ import projectRoutes from "./routes/project.route";
 import taskRoutes from "./routes/task.route";
 import searchRoutes from "./routes/search.route";
 import userRoutes from "./routes/user.route";
+import teamRoutes from "./routes/team.route";
 app.get("/", (req, res) => {
   res.send("Server is up and runninng");
 });
@@ -28,6 +29,7 @@ app.use("/projects", projectRoutes);
 app.use("/tasks", taskRoutes);
 app.use("/search", searchRoutes);
 app.use("/users", userRoutes);
+app.use("/teams", teamRoutes);
 
 /* Server */
 
