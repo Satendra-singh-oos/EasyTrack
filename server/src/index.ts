@@ -33,7 +33,7 @@ app.use("/teams", teamRoutes);
 
 /* Server */
 
-const port = process.env.PORT || 3030;
-app.listen(port, () => {
-  console.log(`Server is up and running on ${port}`);
+const port = Number(process.env.PORT) || 3000;
+app.listen(port, "0.0.0.0", () => {
+  console.log(`Server running on part ${port}`);
 });
