@@ -1,4 +1,4 @@
-# EasyTrack
+# 📊 EasyTrack
 
 - Welcome to EasyTrack, Designed to enhance project visibility and streamline task management within teams, ensuring everyone stays on track.
 
